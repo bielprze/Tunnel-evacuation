@@ -15,8 +15,8 @@ namespace TunnelEvacuationV1
     class Vehicle
     {
         vehicle_types vehicle_type;
-        int x;
-        int y;
+        public int x;
+        public int y;
         int passenger;
         int passengers_reaction_time;
 

@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace TunnelEvacuationV1
 {
-    class Pedestrian
+    class Cell
     {
         int panic;
         double speed;
-        public Pedestrian(int p, double s)
+        int state; 
+        public Cell(int p, double sp, int st)
         {
             panic = p;
-            speed = s;
+            speed = sp;
+            state = st;
         }
 
     }
